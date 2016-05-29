@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<h2>Katero je glavno mesto države {{ drzava.drzava }}?</h2>
+
+<img src="{{ drzava.url_slike }}" />
+
+<p>
+    <form method="post" action="/kviz">
+        <input name="answer" autofocus>
+
+        <button type="submit" class="btn btn-warning btn-lg">Pošlji!</button>
+    </form>
+</p>
+
+{% endblock %}

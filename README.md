@@ -1,10 +1,3 @@
-# About
+Preprosta igra, kjer moraš uganiti glavno mesto države.
 
-Basic GAE project with Jinja templating engine
-
-# Usage
-
-1. Click on Download ZIP
-2. Save on your disk and unzip
-3. Change the application ID in app.yaml
-4. Build something nice ;)
+Povezava do igre: http://rok-glavno-mesto.appspot.com/
